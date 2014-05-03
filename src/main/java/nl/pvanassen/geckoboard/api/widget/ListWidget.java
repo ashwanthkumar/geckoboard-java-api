@@ -18,7 +18,7 @@ public class ListWidget extends Push {
     @SerializedName( "item" )
     private final List<ListItem> items = new LinkedList<ListItem>();
 
-    protected ListWidget( String widgetKey ) {
+    public ListWidget( String widgetKey ) {
         super( widgetKey );
     }
 
